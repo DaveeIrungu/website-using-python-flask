@@ -1,5 +1,4 @@
-# Import class Flask from the flask library
-from flask import Flask
+from flask import Flask, render_template
 
 # Create a __name__ variable to store flask object instance or flask application
 # Special variable that is in python scripts
@@ -9,12 +8,12 @@ app = Flask(__name__)
 
 @app.route('/')  # homepage
 def home():
-    return "Homepage content"
+    return render_template("home.html")
 
 
 @app.route('/about/')  # about page
 def about():
-    return "About page content"
+    return render_template("about.html")
 
 
 if __name__ == "__main__":
