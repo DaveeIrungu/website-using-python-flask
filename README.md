@@ -18,3 +18,11 @@ Run the following commands:
 python -m venv virtual
 virtual\Scripts\pip install flask
 virtual\Scripts\python website-using-python-flask\script1.py
+
+# Deploying on a free live server
+visit heroku.com and create free account
+Download and install heroku toolbelt
+Open command line and cd into directory then type: heroku login
+Enter credentials and login
+Create app by entering command: heroku create [a unique website name]
+
