@@ -48,3 +48,4 @@ If you're using Python 2, you may want to type in "python-python-2.7.16" instead
 3. Enter the command "heroku git:remote --app myawesomeappname" ***Using the real app name***
 4. Enter the command "git add."
 5. Enter the command "git commit -m "Some commit comment""
+6. Enter the command "git push heroku master"
