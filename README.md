@@ -1,5 +1,5 @@
 # Packages required
-Using python and flask library to create a functional website that can be deployed on a live web server
+Using python and flask library for creating a functional website that can be deployed on a live web server.
 
 Install the latest version of flask using pip by running the command:
 pip install flask
@@ -20,9 +20,9 @@ virtual\Scripts\pip install flask
 virtual\Scripts\python website-using-python-flask\script1.py
 
 # Deploying on a free live server
-visit heroku.com and create free account
-Download and install heroku toolbelt
-Open command line and cd into directory then type: heroku login
-Enter credentials and login
-Create app by entering command: heroku create [a unique website name]
+Visit heroku.com and create free account.
+Download and install heroku toolbelt.
+Open command line and cd into directory then type: heroku login.
+Enter credentials and login.
+Create app by entering command: heroku create [a unique website name].
 
