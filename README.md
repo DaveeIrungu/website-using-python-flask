@@ -4,3 +4,9 @@ Using python and flask library to create a functional website that can be deploy
 Install the latest version of flask using pip by running the command:
 pip install flask
 
+# Directories for the html, css and image files
+Within the main directory, create a folder called templates to store the html files:
+
+website-using-python-flask > templates > about.html, home.html, layout.html
+
+website-using-python-flask > static > css > main.css
